@@ -70,7 +70,7 @@ const Filter: FC<FilterComponentProps> = ({ filters }) => {
               marginLeft: '50px'
             }}
           >
-            {filteredProducts.map((product: any, index: number) => (
+            {filteredProducts.map((product: ProductsProps, index: number) => (
               <div
                 style={{
                   display: 'flex',

@@ -91,7 +91,7 @@ const Pagination: FC<PaginationProps> = ({ isLoaded }) => {
             }}
           >
             {localStorage.getItem('products') ? (
-              (currentProducts as any).map((product: any, index: number) => (
+              (currentProducts as ProductsProps[]).map((product: ProductsProps, index: number) => (
                 <div
                   style={{
                     display: 'flex',

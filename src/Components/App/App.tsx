@@ -5,7 +5,7 @@ import Pagination from './Pagination'
 
 export type ProductsProps = {
   id: string
-  name: string
+  product: string
   price: number
   brand: string
 }
